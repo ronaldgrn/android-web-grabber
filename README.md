@@ -10,15 +10,16 @@ This was quickly spun up for a small, short-lived project. I cannot guarantee th
 How to use
 ----------
 
-Create a new instance of WebGrabber class, overriding getResponse.
-Set the request url with either 
-`wg.setUrlFromString("https://jsonplaceholder.typicode.com/posts");`
+1. Create a new instance of WebGrabber class, overriding getResponse.
+
+2. Set the request url with either 
+`.setUrlFromString("https://jsonplaceholder.typicode.com/posts");`
 or 
-`wg.setUrl(URL Object);`
+`.setUrl(URL Object);`
 
-run `fetch`.
+3. run `.fetch`.
 
-The overridden getResponse will be called with the string response.
+The overridden getResponse will be called with the resulting string.
 
 
 Example
