@@ -1,5 +1,3 @@
-package com.petronaldgreen.foodtracker;
-
 import android.os.AsyncTask;
 import android.util.Log;
 
@@ -14,10 +12,8 @@ import java.nio.charset.Charset;
 /**
  * Created by Petronald Green on 3/22/2017.
  *
- * Class seeks to make it easier to do GET requests
- * on android.
+ * Class seeks to make it easier to do GET requests on android.
  */
-
 public abstract class WebGrabber {
     protected URL url;
 
